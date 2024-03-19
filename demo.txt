@@ -1,0 +1,27 @@
+class Calculator
+{
+	int num1;
+	int num2;
+	
+	public int add(int n1,int n2)
+	{
+		int r=n1+n2;
+		return r;
+	}
+
+}
+
+class demo
+{
+	public static void main(String[]args)
+	{
+		int num1;
+		int num2;
+		
+		Calculator c1=new Calculator;
+		int result=c1.add(num1,num2);
+		
+		System.print.out(result);
+	}
+}
+
